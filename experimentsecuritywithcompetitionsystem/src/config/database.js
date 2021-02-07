@@ -5,10 +5,7 @@ const config = require('./config');
 
 const pool = mysql.createPool({
         connectionLimit: 100,
-        host: 'design-competition.ckqe4kb67goe.us-east-1.rds.amazonaws.com',
-        user: 'admin',
-        password: 'adminpassword',
-        database: 'competition_system_security_concept_db',
+        /* Connection details */
         multipleStatements: true
     });
 
